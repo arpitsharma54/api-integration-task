@@ -22,7 +22,7 @@ class UserInfo with ChangeNotifier {
           "job": jobName,
         }),
         headers: {"Content-Type": "application/json"});
-    print(response.statusCode);
-    print(response.body);
+    // print(response.statusCode);
+    // print(response.body);
   }
 }
