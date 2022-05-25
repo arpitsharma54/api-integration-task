@@ -18,8 +18,8 @@ class UserInfo with ChangeNotifier {
     final url = Uri.parse('https://reqres.in/api/users');
     final response = await http.post(url,
         body: json.encode({
-          "name": "arpit",
-          "job": "sharma",
+          "name": fullName,
+          "job": jobName,
         }),
         headers: {"Content-Type": "application/json"});
     print(response.statusCode);
