@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:task_01/provider/user_info.dart';
 
 import '../widgets/users_list.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
-import '../provider/user_details.dart';
 import 'package:provider/provider.dart';
 
 class ProfileScreen extends StatefulWidget {

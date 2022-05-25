@@ -32,7 +32,6 @@ class _SubmitScreenState extends State<SubmitScreen> {
         .postUser(fullName.text, jobName.text)
         .then((value) {
       setState(() {
-        isSubmited = true;
         Navigator.of(context).pushNamed(ProfileScreen.routeName).then((value) {
           setState(() {
             isSubmited = false;
