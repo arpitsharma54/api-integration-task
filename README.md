@@ -17,4 +17,12 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Home Screen
 
-![Home Screen](./images/main_screen.png) ![Profile Screen](./images/profile_screen.png)
+![Home Screen](./images/main_screen.png)
+
+## Profile Screen
+
+![Profile Screen](./images/profile_screen.png)
+
+## Processing Data
+
+![Processing Data](./images/processing_data.png)
