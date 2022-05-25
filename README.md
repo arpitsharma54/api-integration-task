@@ -15,14 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## Home Screen
+## App Screens Images
 
-![Home Screen](./images/main_screen.png)
-
-## Profile Screen
-
-![Profile Screen](./images/profile_screen.png)
-
-## Processing Data
-
-![Processing Data](./images/processing_data.png)
+<pre><img src="./images/main_screen.png" width="255" height="550"/> <img src="./images/processing_data.png" width="255" height="550"/> <img src="./images/profile_screen.png" width="255" height="550"/></pre>

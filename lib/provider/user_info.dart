@@ -19,14 +19,15 @@ class UserInfo with ChangeNotifier {
 
   Future<void> postUser(String fullName, String jobName) async {
     final url = Uri.parse('https://reqres.in/api/users/');
-    
-      final response = await http.post(url,
-          body: json.encode({
-            "name": fullName,
-            "job": jobName,
-            "id": Random().nextInt(1000) + 6.toInt(),
-            "createdAt": DateTime.now().toString(),
-          }));
-    
+
+    final response = await http.post(url,
+        body: json.encode({
+          "name": fullName,
+          "job": jobName,
+          "id": Random().nextInt(1000) + 6.toInt(),
+          "createdAt": DateTime.now().toString(),
+        }));
+    print(response.statusCode);
+    print(response.body);
   }
 }
